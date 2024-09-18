@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  /* reseteo */
+  margin: 0;
+  padding:0;
+  width: 100%;
+  max-width: 1200px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html body h1 {
+  color: #8C5A2E;
+  font-size: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  padding: 1rem;
+  margin-left: 2 rem;
+}
+html body h2 {
+  color: #26160C;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 3rem;
+  margin-left: 5 rem;
+}
+html body h3 {
+  color: #26160C;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  margin-left: 5 rem;
+}
+html body h4 {
+  color: #26160C;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  /* text-align: center; */
+  margin-left: 5 rem;
+  padding-left: 5 rem;
+}
+html body p {
+  color: #8C5A2E;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-align: justify;
+  padding: 1rem;
+  margin-left: 2 rem;
+}
+
+ html body form {
+  background-color: #BF9C5A;
+  border: solid 1px #26160C;
+  margin: 2rem;
+  padding: 3 rem;
+  width: 100%;
+} 
+html body form input {
+  display: block;
+  margin: 1rem;
+  width: 400px;
+}
+html body form textarea {
+  height: 5rem;
+  width: 400px;
+}
+html body form .btn-submit {
+  background-color: #8C5A2E;
+  border: solid 1px;
+  border-radius: 2%;
+  width: 5rem;
+  height: 2rem;
+}
+#caja {
+    width: 650px;
+    height: 10 rem;
+    background-color: #BF9C5A;
+    background-size: cover;
+    border: 3px #26160C solid;
+    margin: 2rem;  
+   
+  }
+  #btnSearch
+ {
+  background-color:  #8C5A2E;
+  width: 80px;
+  height: 20px;
+  border: solid 1px;
+  border-radius: 2%;
+  margin: 2 rem;
+  padding: 5 rem;
+  text-align: center;
+ 
+}
+#btnSearch2
+{
+ background-color:  #65e311;
+ width: 200px;
+ height: 40px;
+ border: solid 1px;
+ border-radius: 2%;
+ margin: 2 rem;
+ padding: 5 rem;
+ text-align: center;
+
+}
+#labelSearch{
+    color: #26160C;
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    
+}
+  #ingreso{
+    width: 950px;
+    height: 50px;
+  }
+  html body .table {
+ margin: 5 rem; 
+  }
+  html body .table th {
+    background-color: #8C5A2E;
+    padding-left: 8rem;  
+    font-size: medium;
+    text-align: left;
+  }
+  html body .table td {
+   font-size: large; 
+   padding-left: 8rem; 
+  }
+  html body .table tr {
+    text-align: left;
+  }
